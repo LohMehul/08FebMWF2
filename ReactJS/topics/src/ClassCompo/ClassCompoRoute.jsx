@@ -7,6 +7,7 @@ import ClassCompoState from './03ClassCompoState.jsx';
 import ClassCompojsx from './04ClassCompojsx.jsx';
 import ProspExample from './05Props';
 import StateLifeCycle from './07statelifecycle';
+import ClassCompoLoader from './08statelifecycleloader';
 
 class ClassCompoRoute extends Component {
     render() {
@@ -20,6 +21,7 @@ class ClassCompoRoute extends Component {
                         <Route path="classcompojsx" element={<ClassCompojsx />} />
                         <Route path="classcompoporps" element={<ProspExample />} />
                         <Route path="classcompostatelifecycle" element={<StateLifeCycle />} />
+                        <Route path="classcompostatelifecycleloader" element={<ClassCompoLoader />} />
                     </Route>
                 </Routes>
             </>
