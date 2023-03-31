@@ -8,6 +8,8 @@ import ClassCompojsx from './04ClassCompojsx.jsx';
 import ProspExample from './05Props';
 import StateLifeCycle from './07statelifecycle';
 import ClassCompoLoader from './08statelifecycleloader';
+import ClassCompoConditionalRender from './10ConditionalRendering';
+import ClassCompoListKeysMap from './11ListKeysMap';
 
 class ClassCompoRoute extends Component {
     render() {
@@ -22,6 +24,8 @@ class ClassCompoRoute extends Component {
                         <Route path="classcompoporps" element={<ProspExample />} />
                         <Route path="classcompostatelifecycle" element={<StateLifeCycle />} />
                         <Route path="classcompostatelifecycleloader" element={<ClassCompoLoader />} />
+                        <Route path="classcompoconditionalrender" element={<ClassCompoConditionalRender />} />
+                        <Route path="classcompolistkeysmap" element={<ClassCompoListKeysMap />} />
                     </Route>
                 </Routes>
             </>
