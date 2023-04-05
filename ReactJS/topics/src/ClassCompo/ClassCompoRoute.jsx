@@ -10,6 +10,9 @@ import StateLifeCycle from './07statelifecycle';
 import ClassCompoLoader from './08statelifecycleloader';
 import ClassCompoConditionalRender from './10ConditionalRendering';
 import ClassCompoListKeysMap from './11ListKeysMap';
+import ClassCompoDynamicMenu from './12DynamicSubMenu';
+import ClassCompoSpreadRest from './13ClassCompoSpreadRest.jsx';
+import ClassCompoControlledCompo from './14ClassCompoControlledCompo.jsx';
 
 class ClassCompoRoute extends Component {
     render() {
@@ -26,6 +29,9 @@ class ClassCompoRoute extends Component {
                         <Route path="classcompostatelifecycleloader" element={<ClassCompoLoader />} />
                         <Route path="classcompoconditionalrender" element={<ClassCompoConditionalRender />} />
                         <Route path="classcompolistkeysmap" element={<ClassCompoListKeysMap />} />
+                        <Route path="classcompodynamicmenu" element={<ClassCompoDynamicMenu />} />
+                        <Route path="classcomporestspread" element={<ClassCompoSpreadRest />} />
+                        <Route path="classcompocontrolledcompo" element={<ClassCompoControlledCompo />} />
                     </Route>
                 </Routes>
             </>
